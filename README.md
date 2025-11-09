@@ -21,10 +21,6 @@ docs/screenshots/    # Put images/GIFs here for README
 - Offline-first: `OFFLINE_MODE = true` simulates balance locally (no backend required).
 - UI flow: set bet → Start (green button shows Cashout amount) → either Cashout or wait (risk crash).
 - Canvas draws the curve in real time; glow color and bottom panel update with game state.
-
-
-## Development notes<img width="1918" height="873" alt="crashgame" src="https://github.com/user-attachments/assets/7837a362-8b4a-4999-b848-0556a5c1f67d" />
-
 - This codebase is intentionally framework-free and uses global scope for simplicity.
 - If you later add a backend, set `OFFLINE_MODE = false` and implement `/api/crash/bet`, `/api/crash/cashout`, `/api/crash/loss`.
 
