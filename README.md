@@ -1,3 +1,4 @@
+<img width="1918" height="873" alt="image" src="https://github.com/user-attachments/assets/d0ee471f-5bf6-4d73-984d-84bfa7f4b2ee" />
 # Crash Game
 
 A simple, offline-capable browser "crash" game rendered on HTML5 canvas. This repo uses a clean, modular structure (no frameworks) and runs via any static HTTP server.
@@ -22,7 +23,8 @@ docs/screenshots/    # Put images/GIFs here for README
 - Canvas draws the curve in real time; glow color and bottom panel update with game state.
 
 
-## Development notes
+## Development notes<img width="1918" height="873" alt="crashgame" src="https://github.com/user-attachments/assets/7837a362-8b4a-4999-b848-0556a5c1f67d" />
+
 - This codebase is intentionally framework-free and uses global scope for simplicity.
 - If you later add a backend, set `OFFLINE_MODE = false` and implement `/api/crash/bet`, `/api/crash/cashout`, `/api/crash/loss`.
 
