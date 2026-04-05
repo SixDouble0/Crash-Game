@@ -24,6 +24,3 @@ docs/screenshots/    # Put images/GIFs here for README
 - This codebase is intentionally framework-free and uses global scope for simplicity.
 - If you later add a backend, set `OFFLINE_MODE = false` and implement `/api/crash/bet`, `/api/crash/cashout`, `/api/crash/loss`.
 
-
-## License
-Choose a license before publishing (MIT is a common default). Add a `LICENSE` file to the repo root. 
